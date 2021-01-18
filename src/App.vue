@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <Hellowizard msg="Welcome to Your Vue.js App"/> -->
+    <!-- <wizard></wizard> -->
+    <wizardTask></wizardTask>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import wizard from './examples/ac-wizard-task'
+import wizardTask from './examples/wizard-task'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    wizardTask
   }
 }
 </script>
